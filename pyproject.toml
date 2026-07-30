@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "claude-guard-eval"
+version = "0.1.0"
+description = "An Open-Source Automated Evaluation, Security Guardrail & MCP Testing Suite for Anthropic Claude Agents"
+readme = "README.md"
+authors = [
+  { name = "Open Source Developer", email = "developer@example.com" }
+]
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Security",
+]
+keywords = ["anthropic", "claude", "evals", "mcp", "ai-safety", "red-teaming", "llm-testing"]
+dependencies = [
+    "anthropic>=0.30.0",
+    "pydantic>=2.0.0",
+    "tabulate>=0.9.0",
+    "colorama>=0.4.6"
+]
+requires-python = ">=3.9"
+
+[project.urls]
+"Homepage" = "https://github.com/YOUR_USERNAME/claude-guard-eval"
+"Bug Tracker" = "https://github.com/YOUR_USERNAME/claude-guard-eval/issues"
+
+[project.scripts]
+claude-guard = "claude_guard_eval.cli:main"
