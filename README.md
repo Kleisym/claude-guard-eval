@@ -30,7 +30,7 @@ pip install claude-guard-eval
 Or install from source:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/claude-guard-eval.git
+git clone https://github.com/Kleisym/claude-guard-eval.git
 cd claude-guard-eval
 pip install -e .
 ```

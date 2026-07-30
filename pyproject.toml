@@ -28,8 +28,8 @@ dependencies = [
 requires-python = ">=3.9"
 
 [project.urls]
-"Homepage" = "https://github.com/YOUR_USERNAME/claude-guard-eval"
-"Bug Tracker" = "https://github.com/YOUR_USERNAME/claude-guard-eval/issues"
+"Homepage" = "https://github.com/Kleisym/claude-guard-eval"
+"Bug Tracker" = "https://github.com/Kleisym/claude-guard-eval/issues"
 
 [project.scripts]
 claude-guard = "claude_guard_eval.cli:main"
