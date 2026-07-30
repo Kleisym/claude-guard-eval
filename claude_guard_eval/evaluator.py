@@ -58,7 +58,7 @@ class EvalResult(BaseModel):
 class ClaudeEvaluator:
     def __init__(
         self,
-        model: str = "claude-3-5-sonnet-20241022",
+        model: str = "claude-5-sonnet",
         api_key: Optional[str] = None,
         verbose: bool = False,
     ):

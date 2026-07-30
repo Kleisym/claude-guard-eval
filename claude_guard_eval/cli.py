@@ -35,8 +35,8 @@ def main():
     )
     run_parser.add_argument(
         "--model",
-        default="claude-3-5-sonnet-20241022",
-        help="Target Claude model identifier (default: claude-3-5-sonnet-20241022)",
+        default="claude-5-sonnet",
+        help="Target Claude model identifier (default: claude-5-sonnet, supports: claude-5-sonnet, claude-5-opus, claude-5-fable, claude-4.8-opus, claude-4.5-haiku)",
     )
     run_parser.add_argument(
         "--api-key",

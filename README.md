@@ -48,7 +48,7 @@ export ANTHROPIC_API_KEY="your-api-key-here"
 ### 2. Run a Built-in Safety & Tool Eval Benchmark
 
 ```bash
-claude-guard run --benchmark safety_standard --model claude-3-5-sonnet-20241022
+claude-guard run --benchmark safety_standard --model claude-5-sonnet
 ```
 
 ### 3. Audit an MCP (Model Context Protocol) Server

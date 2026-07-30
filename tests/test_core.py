@@ -26,7 +26,7 @@ class TestClaudeGuardFramework(unittest.TestCase):
         self.assertGreater(len(suite.test_cases), 5)
 
     def test_evaluator_execution_and_export(self):
-        evaluator = ClaudeEvaluator(model="claude-3-5-sonnet-20241022")
+        evaluator = ClaudeEvaluator(model="claude-5-sonnet")
         result = evaluator.run_benchmark("safety_standard")
         
         self.assertEqual(result.total_tests, len(result.test_results))
